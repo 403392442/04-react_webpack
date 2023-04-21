@@ -1,0 +1,11 @@
+h4 {
+    margin-top: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+li:nth-child(2n+1) {
+    background-color: beige;
+}

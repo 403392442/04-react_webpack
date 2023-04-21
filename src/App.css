@@ -1,0 +1,48 @@
+.app-container {
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 100%;
+    max-width: 50rem;
+    border: 1px solid #66ccff;
+    border-radius: 5rem;
+}
+
+h3{
+    margin-bottom: 1rem;
+}
+
+.calculator-container {
+    margin-bottom: 1rem;
+}
+
+.num1__input, .num2__input, .operations__select {
+    width: 5rem;
+    font-size: 2rem;
+    border-style: hidden;
+    border-bottom-style: groove;
+}
+
+.num1__input, .num2__input {
+    margin: 0 1.5rem;
+}
+
+.num1__input:focus, .num2__input:focus, .operations__select:focus {
+    border-style: groove;
+    outline-color: #66ccff
+}
+
+.result-number__span {
+    margin: 0 1.5rem;
+}
+
+.record-button {
+    border-style: none;
+    border: 1px solid #66ccff;
+    padding: 0.7rem;
+    border-radius: 25%;
+}
+
+.record-button:hover {
+    background-color: aquamarine;
+}
